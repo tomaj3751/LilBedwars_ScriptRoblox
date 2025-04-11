@@ -1,20 +1,20 @@
 local Rayfield = loadstring(game:HttpGet('https://[Log in to view URL]'))()print 'hello world!'
 
 local Window = Rayfield:CreateWindow({
-   Name = "Op Bedwars SCript",
-   LoadingTitle = "wellcome to Op Bedwars SCript",
-   LoadingSubtitle = "By Eliam",
+   Name = "Lil Bedwars Script",
+   LoadingTitle = "wellcome to Lil Bedwars Script",
+   LoadingSubtitle = "By tomaj3751",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "youtubeexample"
    },
    Discord = {
-      Enabled = false,
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      Enabled = true,
+      Invite = "cheapnerds", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "bedwars key",
       Subtitle = "Op Bedwars SCript",
